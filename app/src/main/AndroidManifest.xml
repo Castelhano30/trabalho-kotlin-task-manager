@@ -12,11 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TaskManager"
         tools:targetApi="31">
+
+
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.TaskManager">
+            android:name="com.exemple.taskmanager.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.exemple.taskmanager.TaskActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.exemple.taskmanager.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.exemple.taskmanager.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.exemple.taskmanager.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.exemple.taskmanager.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
